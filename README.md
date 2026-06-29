@@ -78,6 +78,26 @@ Presence is an important but not the only factor influencing streams, as other t
 2. Run your script (e.g., `python main.py`).
 3. Follow the outputs and visualizations generated for insights.
 
+## Excell
+In addition to the Python analysis, this project includes an Excel-based dashboard built using the same Spotify dataset to provide a business-friendly, visual exploration of the data.
+
+Features
+Top artists by number of songs
+Song release trends over time (by year)
+Average energy and danceability analysis
+KPI summary metrics (total songs, unique artists, average energy)
+Interactive PivotTable-based analysis
+Tools Used
+Microsoft Excel
+PivotTables & PivotCharts
+Formulas (COUNT, AVERAGE, UNIQUE)
+Data visualization (bar and line charts)
+Key Insights
+Most songs in the dataset are released after 2019, showing a strong focus on modern streaming trends
+Certain artists dominate in song frequency, while others show higher average audio energy or danceability
+Energy and danceability remain relatively stable across recent years
+The Excel dashboard complements the Python analysis by translating technical results into a stakeholder-friendly format
+
 ## Next Steps (Suggestions)
 - Explore clustering songs by audio features to identify distinct “vibe” groups.
 - Compare streaming success based on release timing or playlists.
